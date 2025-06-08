@@ -14,18 +14,28 @@ function App() {
               className="w-10 rounded-md"
               loading="lazy"
             />
-            <q className="p-3">Kode yang indah, lahir dari fucking</q>
+            <q className="p-3">
+              Apa yang kamu bangun hari ini, bisa mengubah hidup seseorang esok
+              hari.
+            </q>
           </div>
-          <h1 className="text-5xl/tight font-bold mb-6">Hi, Feron Sadana :)</h1>
+          <h1 className="text-5xl/tight font-bold mb-6">Feron Sadana</h1>
           <p className="text-base/loose mb-6 opacity-50">
-            Saya mempunyai ketertarikan dalam bidang Programming dan Designer,
-            terutama pada pembuatan Website dan Desain seperti Poster, Pamflet
-            serta Banner, ketertarikan pada bidang ini sudah berlangsung lebih
-            dari 4 Tahun untuk semua Bidang.
+            Lulusan Teknik Informatika Universitas Sriwijaya, saya adalah
+            Fullstack Developer yang bersemangat membangun solusi digital yang
+            berdampak. Dengan pengalaman mengembangkan sistem informasi dan
+            aplikasi backend di perusahaan seperti PT Jamkrindo, PT Kereta Api
+            Indonesia, dan Qyos by Algramo, saya menguasai berbagai teknologi
+            seperti Java, Kotlin, Spring Boot, SQL Server, Laravel, hingga React
+            JS. Saya percaya bahwa teknologi bukan sekadar alat, tapi jembatan
+            untuk memecahkan masalah nyata. Setiap baris kode yang saya tulis
+            adalah upaya untuk membuat sistem berjalan lebih efisien, lebih
+            cepat, dan lebih bermanfaat."
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="#"
+              href="/public/assets/CVKU.pdf"
+              download
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
               Download CV <i className="ri-download-line ri-lg"></i>
@@ -62,20 +72,18 @@ function App() {
               data-aos-duration="1000"
               data-aos-delay="300"
             >
-              Hi, perkenalkan saya Diky Prayoga, seorang Full Stack Web
-              Developer dan Designer untuk UI/UX Design maupun Product Digital.
-              Saya percaya bahwa desain dan fungsionalitas harus berjalan
-              beriringan, sehingga setiap proyek yang saya kembangkan tidak
-              hanya terlihat menarik tetapi juga memberikan pengalaman pengguna
-              yang optimal.
+              Hi, perkenalkan saya Feron Sadana, seorang Fullstack Developer
+              yang berfokus pada pengembangan backend dengan keahlian di Java,
+              Kotlin, Spring Boot, dan SQL Server. Saya memiliki pengalaman
+              mengembangkan sistem informasi dan aplikasi berbasis web untuk
+              mendukung proses bisnis di berbagai sektor. Saya percaya bahwa
+              setiap baris kode yang ditulis dengan semangat dan tanggung jawab
+              dapat membawa dampak besar bagi efisiensi dan kemajuan suatu
+              organisasi. Saya berkomitmen untuk terus belajar dan membangun
+              solusi teknologi yang stabil, scalable, dan relevan dengan
+              kebutuhan zaman.
             </p>
             <div className="flex items-center justify-between">
-              <img
-                src={DataImage.HeroImage}
-                className="w-12 rounded-md sm:block hidden"
-                alt="Image tentang"
-                loading="lazy"
-              />
               <div className="flex items-center gap-6">
                 <div>
                   <h1 className="text-4xl mb-1">
